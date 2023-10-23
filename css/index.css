@@ -1,0 +1,21 @@
+/* Navbar styles */
+
+#my-avatar{
+    margin-right: 10px;
+}
+
+
+/* Jumbotron styles */
+
+  /* img{
+    max-width: 100% !important;
+    object-fit: cover !important;
+}  */
+
+div.image-background{
+    height: calc(80vh-45px);
+    width: 100%;
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-color: black;
+}
