@@ -6,7 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Ahmed Abshir // (Bootstrap) Web Developer</title>
-
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- flaticon cdn -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -19,7 +22,7 @@
         
         <div class="container-fluid .nav-content">
             <img src="./images/cropped-avatar.png" alt="An avatar of me" id="my-avatar">
-            <a class="navbar-brand" target="_blank" href="https://github.com/syntaxError-23" id="my-name">Ahmed Abshir</a>
+            <a class="navbar-brand" target="_blank" href="https://github.com/syntaxError-23?tab=repositories" id="my-name">Ahmed Abshir</a>
           
           <!-- Toggle button for nav -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +39,7 @@
                                 <a class="nav-link c-white" aria-current="page" href="#">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hover-blue" href="#">Work</a>
+                                <a class="nav-link hover-blue" href="#">Projects</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Me</a>
@@ -51,19 +54,170 @@
     <div class="image-background bg-dark d-flex justify-content-center align-items-center"">
         <div class="jumbo-content container-fluid d-flex flex-column justify-content-center align-items-center">
                 <h1 class="jumbo-title my-10 text-center fw-bold">THE POWER OF BOOTSTRAP</h1>
-                <p class="jumbo-copy lead text-center fw-bold mt-5">HERE IT IS IN ALL ITS GLORY. APPARENTLY, IT'S A GOOD IDEA TO HAVE A CALL TO ACTION 'ABOVE THE FOLD'. I ONLY ASK THAT YOU</p>
-                <button type="button" class="btn btn-dark btn-lg mt-2 fw-bold">SCROLL DOWN</button>
+                <p class="jumbo-copy lead text-center fw-bold mt-5">HERE IT IS IN ALL ITS GLORY. APPARENTLY, IT'S A GOOD IDEA TO HAVE A CALL TO ACTION 'ABOVE THE FOLD'. MY CTA IS SIMPLE - CLICK THE BUTTON BELOW!</p>
+                <button type="button" class="btn text-white btn-lg mt-2 fw-bold px-3 py-2 cta">SCROLL DOWN</button>
         </div>
     </div>
 
-    <!-- cards -->
-    <div class="container-fluid"></div>
+    <!-- cards - my projects -->
+    <div class="container-fluid my-projects-container pt-2 pb-4">
+        <h2 class="pt-5 text-center text-white fw-bold ">PROJECTS</h2>
+
+        <!-- Row 1 -->
+        <div class="row my-md-4 g-2 align-items-center">
+            
+            <!-- Card 1 -->
+            
+            <div class="card-wrapper col-12 col-md-4" >
+                <div class="card border-0">
+                <img class="card-img-top" src="./images/idek.jpg" alt="Card image cap">
+                <div class="card-body bg-black text-white vw-md-40">
+                    <h4 class="bio-title text-center fw-bold">My First Portfolio</h4>
+                  <p class="card-text text-center">A webpage written purely in HTML and CSS that serves as a platform to showcase my work</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/portfolio-by-ahmed" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/portfolio-by-ahmed/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+            </div>
+              </div>
+
+            <!-- Card 2 - feature -->
+              
+            <div class="card-wrapper col-12 col-md-4" id="feature-card">
+                <div class="card border-danger border-2">
+                <div class="card-header text-center text-danger border-danger bg-black d-s-0 border-2 fw-bold">LATEST</div>
+                <img class="card-img-top" src="./images/coin.jpg" alt="Card image cap">
+                <div class="card-body bg-black text-white">
+                    <h4 class="bio-title text-center fw-bold">Finance Data Analysis</h4>
+                  <p class="card-text lead text-center">A console app that analyses a set of financial data and outputs some processed information to the console</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/finance-data-analysis" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/finance-data-analysis/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+            </div>
+              </div>
+
+              <!-- Card 3 -->
+              
+              <div class="card-wrapper col-12 col-md-4 ">
+                <div class="card card border-0">
+                <img class="card-img-top " src="./images/taxi.jpg" alt="Card image cap">
+                <div class="card-body bg-black text-white">
+                    <h4 class="bio-title text-center fw-bold">To-do List App</h4>
+                  <p class="card-text text-center">A simple to-do list app coded in HTML, CSS and Javascript</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/to-do-list-app" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/to-do-list-app/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+            </div>
+              </div>
+              
+              
+
+
+        </div>
+
+  
+        <!-- Row 2 -->
+        <div class="row my-1 g-2 ">
+
+            <!-- Card 4 -->
+              
+            <div class="card-wrapper col-12 col-md-4">
+                <div class="card card border-0">
+                <img class="card-img-top" src="./images/city-square.jpg" alt="Card image cap">
+                <div class="card-body bg-black text-white">
+                    <h4 class="bio-title text-center fw-bold">Note taking App</h4>
+                  <p class="card-text text-center">An app that allows the user to create and save notes</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/note-taking-app" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/note-taking-app/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+            </div>
+              </div>
+
+
+              <!-- Card 5 -->
+              
+              <div class="card-wrapper col-12 col-md-4">
+                <div class="card card border-0">
+                <img class="card-img-top" src="./images/road.jpg" alt="card image cap">
+                <div class="card-body bg-black text-white">
+                    <h4 class="bio-title text-center fw-bold">Vowel Counter App</h4>
+                  <p class="card-text text-center">A simple web app that prompts the user to enter some text and counts the number of vowels in the text</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/vowel-counter-app" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/vowel-counter-app/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+
+            <div class="card-wrapper col-12 col-md-4">
+                <div class="card border-0">
+                <img class="card-img-top" src="./images/looks-greek.jpg" alt="card image cap">
+                <div class="card-body bg-black text-white">
+                    <h4 class="bio-title text-center">Expense Report App</h4>
+                  <p class="card-text text-center">A web app that allows the user to submit expenses and view them</p>
+                  <div class="card-links-container d-flex justify-content-center align-items-center flex-column">
+                    <a class="my-1" href="https://github.com/syntaxError-23/expense-report-app" target="_blank">Github Repository</a>
+                    <a class="my-1" href="https://syntaxerror-23.github.io/expense-report-app/" target="_blank">Deployed Project</a>
+                </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        </div>
+    
     
     <!-- Idea form -->
-    <div class="container-fluid"></div>
+    <div class="container-fluid idea-form-container bg-white py-5">
+
+        <h2 class="text-center fw-bold text-black mt-2 ">IDEAS SUMBMISSION</h2>
+        <h5 class="text-center fw-bold text-black mt-2 mb-4">There's always room for improvement</h5>
+        <form class=" w-50 my-0 mx-auto p-4 text-white ">
+            <div class=" form-content ">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">How do you think the page could be improved?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Functional back end would be a great start, right?</textarea>
+                  </div>
+                </div>
+            <button type="submit" class="btn text-white">Submit</button>
+          </form>
+         </div>
 
     <!-- contact -->
-    <div class="container-fluid"></div>
+    <div class="container-fluid footer bg-black py-4 ">
+            <h2 class="text-white text-center mb-5">GET IN TOUCH</h2>
+            <div class="contacts-container">
+              
+              <div class="row px-3">
+              
+                <div class="contact-box col-md-4 d-flex flex-column justify-content-center align-items-center">
+              <i class="fa-sharp fa-solid fa-envelope fa-xl " style="color: #ffffff;"></i>
+                <p class="method-of-contact mt-3 text-white">devbyahmed@somecomany.com</p>
+              </div>
+              
+              <div class="contact-box col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <i class="fa-sharp fa-solid fa-envelope fa-xl " style="color: #ffffff;"></i>
+                  <p class="method-of-contact mt-3 text-white">devbyahmed@somecomany.com</p>
+                </div>
+                
+                <div class="contact-box col-md-4 d-flex flex-column justify-content-center align-items-center">
+                  <i class="fa-sharp fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i>
+                    <p class="method-of-contact mt-3 text-white">devbyahmed@somecomany.com</p>
+                  </div>
+                </div>
+            </div>
+    </div>
 
 
 
