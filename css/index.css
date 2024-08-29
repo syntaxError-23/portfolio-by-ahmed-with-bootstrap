@@ -29,6 +29,15 @@ nav{
     margin-right: 10px;
 }
 
+a.nav-link:hover{
+    color: rgb(107, 26, 183);
+}
+
+a.nav-link:focus{
+    color: white;
+}
+
+
 
 /* Jumbotron styles */
 
@@ -39,7 +48,6 @@ nav{
     background-image: url(../images/lighter-bg-min.jpg);
     background-size: cover;
     background-position-y: 40%;
-
 }
 
 .jumbo-content {
@@ -49,12 +57,32 @@ nav{
     color: rgb(255, 255, 255);
 }
 
+p#jumbo-subtext{
+    width: 70%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+button#scroll-btn{
+    border-radius: 4px !important;
+}
+
+button#scroll-btn:hover{
+    background-color: rgb(131, 46, 211) !important;
+}
+
+
 
 
 /* My project (cards) styles */
 
+
 .my-projects-container{
     background-color: #0a0a0a;
+}
+
+h2#projects-header{
+    scroll-margin-bottom: 40px;
 }
 
 .card{
@@ -67,6 +95,12 @@ nav{
     height: 40vh;
     object-fit: cover;
     object-position: 0 60%;
+}
+
+img#chronos-logo{
+    max-width: 100%;
+    object-fit: fill;
+    background-color: rgb(107, 26, 183);
 }
 
 
@@ -82,32 +116,21 @@ nav{
 }
 
 
-/* Ideas submission */
-
-.idea-form-container{
-    background-image: url(../images/horizon.jpg);
-    background-size: cover;
-   
-}
-
-form{
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.form-content input{
-    height: 30vh;
-    width: 100%;
-}
-
-
-/* .card-body{
-    height: 40vh;
-} */
 
 /* Footer styles */
 
 .footer{
     height: 28vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+a:hover{
+    color: rgb(107, 26, 183);
 }
 
 
