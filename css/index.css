@@ -29,11 +29,11 @@ nav{
     margin-right: 10px;
 }
 
-a.nav-link:hover{
+a.nav-link:hover, a#my-name:hover {
     color: rgb(107, 26, 183);
 }
 
-a.nav-link:focus{
+a.nav-link:focus, a#my-name:focus { 
     color: white;
 }
 
