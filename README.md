@@ -22,6 +22,6 @@ To access the page, [click here](https://syntaxerror-23.github.io/portfolio-by-a
 ## Contact
 For inquiries or contact, you can reach me through the following methods:
 
-- GitHub: Ahmed Abshir [GitHub](https://github.com/syntaxError-23?tab=repositories)
+- GitHub: [Ahmed Abshir] (https://github.com/syntaxError-23?tab=repositories)
 
 Feel free to explore the website, check out the projects, and get in touch!
